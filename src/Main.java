@@ -4,10 +4,10 @@ public class Main {
         CreditPaymentService service = new CreditPaymentService();
         double summa = 1_000_000;
         double term = 12;
-        double bid = 9.99;
+        double bet = 9.99;
 
-        double itog = service.credit(summa, term, bid);
-        System.out.println(itog);
+        double total = service.credit(summa, term, bet);
+        System.out.println(total);
 
     }
 }
